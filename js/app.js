@@ -72,9 +72,11 @@ console.log(allItems);
 
  
 var lefItemImage =  docuemnt.getElementById('left item')
+var middleItemImage =  docuemnt.getElementById('middle item')
 var rightItemImage =  docuemnt.getElementById('right item')
 
 leftItemImage.addEventListener('left item')
+middleItemImage.addEventListener('middle item')
 rightItemImage.addEventListener('right item')
 
 // initialize the page
@@ -86,6 +88,7 @@ function handleClickOnRightItem(event){
     //stop click after 10 clciks
     if(clickCounter > 9) {
         leftItemDiv.removeEventListener('click', handleClickOnLeftItem);
+        middleItemDiv.removeEventListener('click', handleClickOnMiddleItem);
         righttItemDiv.removeEventListener('click', handleClickOnRightItem);
         console.log('reached max ammount of clicks');
     };

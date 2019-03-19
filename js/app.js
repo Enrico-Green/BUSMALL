@@ -17,7 +17,7 @@ instead create an array of product objects
 
 - listen for an event (click)
  - while (votes < 10)
- - rnadomly select an image (two images)
+ - randomly select an image (3 images)
  -change the DOM
  -random number generator - to pick the items's photo
  -increment the number of clicks on the clicked item

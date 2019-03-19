@@ -95,12 +95,19 @@ function handleClickOnRightItem(event){
 
 };
 
-var rightItemIndex =  Math.floor(Math.random)() * allItems.length);
-var leftItemIndex =  Math.floor(Math.random)() * allItems.length);
+var rightItemIndex =  Math.floor(Math.random() * allItems.length);
+var middleItemIndex =  Math.floor(Math.random() * allItems.length);
+var leftItemIndex =  Math.floor(Math.random() * allItems.length);
 
 function handleClickOnLeftItem(event){
     clickCounter++;
     //increment left Item
+
+};
+
+function handleClickOnMiddleItem(event){
+    clickCounter++;
+    //increment middle Item
 
 };
 

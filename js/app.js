@@ -24,7 +24,7 @@ instead create an array of product objects
 - store the index of the last item on the page; track which item is clicked on by referencing the items index and saving it.
 
 
-limit the voate to 10
+limit the votes to 10
 
  an array of click events that increment everytime a specific item is clicked.
 
@@ -71,9 +71,9 @@ new ItemImage('./img/wine-glass.jpg', 'Weird Wine Glass' );
 console.log(allItems);
 
  
-var lefItemImage =  docuemnt.getElementById('left item')
-var middleItemImage =  docuemnt.getElementById('middle item')
-var rightItemImage =  docuemnt.getElementById('right item')
+var lefItemImage =  document.getElementById('left item')
+var middleItemImage =  document.getElementById('middle item')
+var rightItemImage =  document.getElementById('right item')
 
 leftItemImage.addEventListener('left item')
 middleItemImage.addEventListener('middle item')
@@ -117,4 +117,4 @@ function handleClickOnRighttItem(event){
 
 };
 
- ///call whats going to run on the page
+ //call whats going to run on the page

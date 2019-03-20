@@ -1,0 +1,17 @@
+
+*{
+    background: #fff;
+    box-sizing: border-box;
+}
+
+
+#Item_Images li{
+    overflow:hidden;
+}
+
+#Item_Images li{
+    float:left;
+    width:300px;
+    height: 300px;
+}
+

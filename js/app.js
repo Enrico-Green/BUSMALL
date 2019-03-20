@@ -71,7 +71,7 @@ new ItemImage('./img/wine-glass.jpg', 'Weird Wine Glass' );
 console.log(allItems);
 
  
-var lefItemImage =  document.getElementById('left item')
+var lefItemImage =  document.getElementById('left item')git
 var middleItemImage =  document.getElementById('middle item')
 var rightItemImage =  document.getElementById('right item')
 
@@ -88,7 +88,7 @@ function handleClickOnRightItem(event){
     //stop click after 10 clciks
     if(clickCounter > 9) {
         leftItemDiv.removeEventListener('click', handleClickOnLeftItem);
-        middleItemDiv.removeEventListener('click', handleClickOnMiddleItem);
+        middleItemDiv.removeEventListener('click', handleClickOnMiddleItem); v 
         righttItemDiv.removeEventListener('click', handleClickOnRightItem);
         console.log('reached max ammount of clicks');
     };
@@ -102,7 +102,7 @@ var leftItemIndex =  Math.floor(Math.random() * allItems.length);
 function handleClickOnLeftItem(event){
     clickCounter++;
     //increment left Item
-
+  
 };
 
 function handleClickOnMiddleItem(event){

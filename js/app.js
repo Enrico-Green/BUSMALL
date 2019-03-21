@@ -88,7 +88,7 @@ function handleClickOnRightItem(event){
     //stop click after 10 clciks
     if(clickCounter > 9) {
         leftItemDiv.removeEventListener('click', handleClickOnLeftItem);
-        middleItemDiv.removeEventListener('click', handleClickOnMiddleItem); v 
+        middleItemDiv.removeEventListener('click', handleClickOnMiddleItem);  
         righttItemDiv.removeEventListener('click', handleClickOnRightItem);
         console.log('reached max ammount of clicks');
     };

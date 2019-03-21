@@ -5,11 +5,11 @@
 }
 
 
-#Item_Images li{
+left_item_img,right_item_img,middle_item_img {
     overflow:hidden;
 }
 
-#Item_Images li{
+left_item_img,right_item_img,middle_item_img {
     float:left;
     width:300px;
     height: 300px;

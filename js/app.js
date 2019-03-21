@@ -71,7 +71,7 @@ new ItemImage('./img/wine-glass.jpg', 'Weird Wine Glass' );
 console.log(allItems);
 
  
-var lefItemImage =  document.getElementById('left item')git
+var lefItemImage =  document.getElementById('left item')
 var middleItemImage =  document.getElementById('middle item')
 var rightItemImage =  document.getElementById('right item')
 
